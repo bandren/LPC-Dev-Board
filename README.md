@@ -13,8 +13,8 @@ The FT230XS-U (usb-uart) chip has an internal MPT memory which needs to be progr
 |:---------|:----------|:--------|
 | CBUS0  | RXLED# | TXDEN |
 | CBUS1  | TXLED# | RXLED# |
-| CBUS2  | PWREN# | TXLED# |
-| CBUS3  | Keep_Awake# | SLEEP# |
+| CBUS2  | Keep_Awake# | TXLED# |
+| CBUS3  | PWREN# | SLEEP# |
 | Max Bus Power Current | 500mA | 90mA |
 | Uart pulldown in suspend | enabled | disabled |
 
